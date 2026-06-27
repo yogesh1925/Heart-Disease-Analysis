@@ -1,99 +1,83 @@
-Heart Disease Risk Factor Analysis 🫀
+🫀 Heart Disease Risk Factor Analysis — R Programming
 
-A beginner-friendly data analysis project built using R programming that explores
-heart disease patterns across 100 patients using simple and clean visualizations.
-
-
-📁 Project Files
-
-📁 heart-disease-analysis/
-├── heart_disease_complete.R   → Main R script (all code)
-├── heart_disease.csv          → Dataset (100 patients)
-└── README.md                  → This file
+A beginner-friendly Data Analysis project that explores heart disease patterns
+across 100 patients using R programming and ggplot2 for clean, insightful visualizations.
 
 
-📊 About the Dataset
+📁 Repository Structure
+
+📦 Heart Disease Analysis
+ ┣ 📂 R Script
+ ┃ ┗ 📄 heart_disease_complete.R
+ ┣ 📂 Raw Data
+ ┃ ┗ 📄 heart_disease.csv
+ ┗ 📄 README.md
 
 
-Source: Cleveland Heart Disease Dataset (adapted)
-Total Patients: 100
-Columns:
+🎯 Project Objective
 
+Build a simple yet meaningful analysis to help understand heart disease patterns by:
+
+
+Identifying how many patients have heart disease vs healthy patients
+Comparing disease rates between male and female patients
+Analyzing the age distribution of patients
+Extracting key health facts like average age and cholesterol levels
+
+
+
+📌 Key Facts from the Data
+
+MetricValueTotal Patients100Patients With Heart Disease52 (52%)Patients Without Heart Disease48 (48%)Average Patient Age55.5 yearsAverage Cholesterol Level252.5 mg/dlMales With Heart Disease31Females With Heart Disease21
+
+
+📊 Charts Created
+
+1. Bar Chart — Disease Count
+
+Shows how many patients have heart disease vs no heart disease with count labels on each bar.
+
+2. Pie Chart — Disease Percentage
+
+Displays the 52% vs 48% split between disease and healthy patients as a labeled circle.
+
+3. Gender Bar Chart — Male vs Female
+
+Side-by-side comparison of how many men and women are affected by heart disease.
+
+4. Histogram — Age Distribution
+
+Shows how patients are spread across different age ranges with a red dashed line marking the average age of 55.5 years.
+
+
+🗃️ Dataset
+
+PropertyValueRows100 patient recordsDomainHealthcare / MedicalFormatCSV
+
+Column Description
 
 ColumnDescriptionageAge of the patient in yearssex1 = Male, 0 = FemalecholSerum cholesterol level in mg/dltarget1 = Has Heart Disease, 0 = No Heart Disease
 
 
-📈 Charts Created
+🛠️ Tools & Technologies
 
-1. Bar Chart — Disease Count
-
-Shows how many patients have heart disease vs no heart disease.
-
-2. Pie Chart — Disease Percentage
-
-Shows the percentage split between disease and healthy patients.
-
-3. Gender Bar Chart — Male vs Female
-
-Compares how many men and women are affected by heart disease.
-
-4. Histogram — Age Distribution
-
-Shows how patients are spread across different age ranges with the average age marked.
+ToolPurposeR ProgrammingCore language for analysisRStudioIDE for writing and running R codeggplot2Building all 4 charts
 
 
-🔍 Key Findings
+🔍 Key Learnings
 
 
-52% of patients in this dataset have heart disease
-Average patient age is 55.5 years
-Average cholesterol is 252.5 mg/dl (above the healthy limit of 200)
-Males (31) are more affected by heart disease than females (21)
+Loading and structuring data using data.frame() in R
+Cleaning and labeling raw numeric data into readable categories
+Building bar charts, pie charts, and histograms using ggplot2
+Extracting meaningful statistics using mean(), sum(), and table()
+Annotating charts with average lines and count labels
 
 
 
-🛠️ Tools Used
+👤 Author
 
+Yogeshwaran Subramanian
 
-Language: R
-IDE: RStudio
-Library: ggplot2
-
-
-
-▶️ How to Run
-
-Step 1 — Install R and RStudio from:
-
-
-R → https://cran.r-project.org
-RStudio → https://posit.co/download/rstudio-desktop
-
-
-Step 2 — Put both files in the same folder:
-
-heart_disease_complete.R
-heart_disease.csv
-
-Step 3 — Open heart_disease_complete.R in RStudio
-
-Step 4 — Install the required package (only once):
-
-rinstall.packages("ggplot2")
-
-Step 5 — Set working directory to your folder:
-
-Session → Set Working Directory → To Source File Location
-
-Step 6 — Run the full script:
-
-Ctrl + Shift + Enter
-
-All 4 charts will appear in the RStudio Plots panel.
-
-Learning R Programming and Data Analysis
-Project completed as part of self-learning journey
-
-
-This is a beginner-level project built for learning purposes.
-The dataset is a simplified adaptation of the Cleveland Heart Disease dataset.
+🔗 www.linkedin.com/in/yogeshwaran-subramanian-371909270
+📧 yogeshsubramanian05@gmail.com
