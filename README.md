@@ -76,8 +76,7 @@ Annotating charts with average lines and count labels
 
 
 👤 Author
-
-Yogeshwaran Subramanian
+Yogeshwaran 
 
 🔗 www.linkedin.com/in/yogeshwaran-subramanian-371909270
 📧 yogeshsubramanian05@gmail.com
