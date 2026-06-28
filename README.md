@@ -1,82 +1,111 @@
-#🫀 Heart Disease Risk Factor Analysis — R Programming
+# 🫀 Heart Disease Risk Factor Analysis — R Programming
 
-A beginner-friendly Data Analysis project that explores heart disease patterns
-across 100 patients using R programming and ggplot2 for clean, insightful visualizations.
+A beginner-friendly Data Analysis project that explores heart disease patterns across 100 patients using R programming and ggplot2 for clean, insightful visualizations.
 
+---
 
-📁 Repository Structure
+# 📁 Repository Structure
 
+```text
 📦 Heart Disease Analysis
  ┣ 📂 R Script
  ┃ ┗ 📄 heart_disease_complete.R
  ┣ 📂 Raw Data
  ┃ ┗ 📄 heart_disease.csv
  ┗ 📄 README.md
+```
 
+---
 
-#🎯 Project Objective
+# 🎯 Project Objective
 
 Build a simple yet meaningful analysis to help understand heart disease patterns by:
 
+* Identifying how many patients have heart disease versus healthy patients
+* Comparing disease rates between male and female patients
+* Analyzing the age distribution of patients
+* Extracting key health insights such as average age and cholesterol levels
 
-Identifying how many patients have heart disease vs healthy patients
-Comparing disease rates between male and female patients
-Analyzing the age distribution of patients
-Extracting key health facts like average age and cholesterol levels
+---
 
+# 📌 Key Facts from the Data
 
+| Metric                         | Value       |
+| ------------------------------ | ----------- |
+| Total Patients                 | 100         |
+| Patients With Heart Disease    | 52 (52%)    |
+| Patients Without Heart Disease | 48 (48%)    |
+| Average Patient Age            | 55.5 Years  |
+| Average Cholesterol Level      | 252.5 mg/dl |
+| Males With Heart Disease       | 31          |
+| Females With Heart Disease     | 21          |
 
-#📌 Key Facts from the Data
+---
 
-MetricValueTotal Patients100Patients With Heart Disease52 (52%)Patients Without Heart Disease48 (48%)Average Patient Age55.5 yearsAverage Cholesterol Level252.5 mg/dlMales With Heart Disease31Females With Heart Disease21
+# 📊 Charts Created
 
+## 1️⃣ Bar Chart — Disease Count
 
-#📊 Charts Created
+Shows the number of patients with and without heart disease, including count labels on each bar for easy comparison.
 
-1. Bar Chart — Disease Count
+## 2️⃣ Pie Chart — Disease Percentage
 
-Shows how many patients have heart disease vs no heart disease with count labels on each bar.
+Displays the percentage split between patients with heart disease and healthy patients.
 
-2. Pie Chart — Disease Percentage
+## 3️⃣ Gender Bar Chart — Male vs Female
 
-Displays the 52% vs 48% split between disease and healthy patients as a labeled circle.
+Compares heart disease occurrence between male and female patients using side-by-side bars.
 
-3. Gender Bar Chart — Male vs Female
+## 4️⃣ Histogram — Age Distribution
 
-Side-by-side comparison of how many men and women are affected by heart disease.
+Visualizes how patients are distributed across different age groups and highlights the average patient age.
 
-4. Histogram — Age Distribution
+---
 
-Shows how patients are spread across different age ranges with a red dashed line marking the average age of 55.5 years.
+# 🗃️ Dataset Information
 
+| Property | Value                |
+| -------- | -------------------- |
+| Rows     | 100 Patient Records  |
+| Domain   | Healthcare / Medical |
+| Format   | CSV                  |
 
-🗃️ Dataset
+## Column Description
 
-PropertyValueRows100 patient recordsDomainHealthcare / MedicalFormatCSV
+| Column | Description                                 |
+| ------ | ------------------------------------------- |
+| age    | Age of the patient in years                 |
+| sex    | 1 = Male, 0 = Female                        |
+| chol   | Serum cholesterol level in mg/dl            |
+| target | 1 = Has Heart Disease, 0 = No Heart Disease |
 
-Column Description
+---
 
-ColumnDescriptionageAge of the patient in yearssex1 = Male, 0 = FemalecholSerum cholesterol level in mg/dltarget1 = Has Heart Disease, 0 = No Heart Disease
+# 🛠️ Tools & Technologies
 
+| Tool          | Purpose                               |
+| ------------- | ------------------------------------- |
+| R Programming | Core language for analysis            |
+| RStudio       | Development environment               |
+| ggplot2       | Data visualization and chart creation |
 
-#🛠️ Tools & Technologies
+---
 
-ToolPurposeR ProgrammingCore language for analysisRStudioIDE for writing and running R codeggplot2Building all 4 charts
+# 🔍 Key Learnings
 
+* Loading and exploring datasets in R
+* Creating and manipulating data frames
+* Converting raw numerical values into readable categories
+* Performing basic statistical analysis using functions such as `mean()`, `sum()`, and `table()`
+* Building professional visualizations using `ggplot2`
+* Presenting analytical insights through charts and summary statistics
 
-🔍 Key Learnings
-Loading and structuring data using data.frame() in R
-Cleaning and labeling raw numeric data into readable categories
-Building bar charts, pie charts, and histograms using ggplot2
-Extracting meaningful statistics using mean(), sum(), and table()
-Annotating charts with average lines and count labels
+---
 
+# 👤 Author
 
+**Yogeshwaran**
 
-#👤 Author
+🔗 LinkedIn: [www.linkedin.com/in/yogeshwaran-subramanian-371909270](http://www.linkedin.com/in/yogeshwaran-subramanian-371909270)
 
-
-#Yogeshwaran 
-
-🔗 www.linkedin.com/in/yogeshwaran-subramanian-371909270
-📧 yogeshsubramanian05@gmail.com
+📧 Email: [yogeshsubramanian05@gmail.com](mailto:yogeshsubramanian05@gmail.com)
