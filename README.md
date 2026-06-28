@@ -1,4 +1,4 @@
-🫀 Heart Disease Risk Factor Analysis — R Programming
+#🫀 Heart Disease Risk Factor Analysis — R Programming
 
 A beginner-friendly Data Analysis project that explores heart disease patterns
 across 100 patients using R programming and ggplot2 for clean, insightful visualizations.
@@ -14,7 +14,7 @@ across 100 patients using R programming and ggplot2 for clean, insightful visual
  ┗ 📄 README.md
 
 
-🎯 Project Objective
+#🎯 Project Objective
 
 Build a simple yet meaningful analysis to help understand heart disease patterns by:
 
@@ -26,12 +26,12 @@ Extracting key health facts like average age and cholesterol levels
 
 
 
-📌 Key Facts from the Data
+#📌 Key Facts from the Data
 
 MetricValueTotal Patients100Patients With Heart Disease52 (52%)Patients Without Heart Disease48 (48%)Average Patient Age55.5 yearsAverage Cholesterol Level252.5 mg/dlMales With Heart Disease31Females With Heart Disease21
 
 
-📊 Charts Created
+#📊 Charts Created
 
 1. Bar Chart — Disease Count
 
@@ -59,14 +59,12 @@ Column Description
 ColumnDescriptionageAge of the patient in yearssex1 = Male, 0 = FemalecholSerum cholesterol level in mg/dltarget1 = Has Heart Disease, 0 = No Heart Disease
 
 
-🛠️ Tools & Technologies
+#🛠️ Tools & Technologies
 
 ToolPurposeR ProgrammingCore language for analysisRStudioIDE for writing and running R codeggplot2Building all 4 charts
 
 
 🔍 Key Learnings
-
-
 Loading and structuring data using data.frame() in R
 Cleaning and labeling raw numeric data into readable categories
 Building bar charts, pie charts, and histograms using ggplot2
@@ -75,8 +73,10 @@ Annotating charts with average lines and count labels
 
 
 
-👤 Author
-Yogeshwaran 
+#👤 Author
+
+
+#Yogeshwaran 
 
 🔗 www.linkedin.com/in/yogeshwaran-subramanian-371909270
 📧 yogeshsubramanian05@gmail.com
